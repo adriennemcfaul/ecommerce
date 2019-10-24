@@ -1,0 +1,41 @@
+[33mcommit b891c22185de8d9d88bd72c1089032cc730b01c4[m
+Author: Adrienne F. McFaul <adriennemcfaul@gmail.com>
+Date:   Wed Oct 23 10:30:47 2019 -0500
+
+    fixed category dropdown menu
+
+[33mcommit 727be0fbaffbcdef9901a11faa698f0b65eeb9e2[m
+Author: Adrienne F. McFaul <adriennemcfaul@gmail.com>
+Date:   Wed Oct 23 08:42:04 2019 -0500
+
+    installed devise and created storefront
+
+[33mcommit f3622275fe4efe319be3e52f2870642f1ec4df16[m
+Author: Adrienne F. McFaul <adriennemcfaul@gmail.com>
+Date:   Wed Oct 23 08:06:57 2019 -0500
+
+    fixed modal issue
+
+[33mcommit 42e7b7a53289bd03d87926e8d3ad2297c59c2729[m
+Author: Adrienne F. McFaul <adriennemcfaul@gmail.com>
+Date:   Tue Oct 22 10:51:10 2019 -0500
+
+    added storefront
+
+[33mcommit c6277bde63e46eada9dfe288b3b7548dae8b4713[m
+Author: Adrienne F. McFaul <adriennemcfaul@gmail.com>
+Date:   Tue Oct 22 09:12:59 2019 -0500
+
+    added categories dropdown
+
+[33mcommit 238a7cdd85985ce5ed99fec66750b6965b6ddc27[m
+Author: Adrienne F. McFaul <adriennemcfaul@gmail.com>
+Date:   Mon Oct 21 11:01:10 2019 -0500
+
+    added gems and seeded categories
+
+[33mcommit aaed9350d6f3ded92c83aebbea0b6bb51c60a8b3[m
+Author: Adrienne F. McFaul <adriennemcfaul@gmail.com>
+Date:   Mon Oct 21 10:13:37 2019 -0500
+
+    ecommerce project started
