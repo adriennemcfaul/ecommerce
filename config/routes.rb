@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   get 'branding' => 'storefront#items_by_brand'
 
+  post 'order_complete' => 'cart#order_complete'
+
   root 'storefront#all_items'
   resources :categories
   resources :products

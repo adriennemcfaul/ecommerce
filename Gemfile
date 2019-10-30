@@ -5,8 +5,15 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+ruby '2.6.5'
 #########################
+
+gem 'stripe', :git => 'git://github.com/stripe/stripe-ruby'
+
+gem 'certified'
+
+gem 'figaro'
+
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'jquery-rails'
@@ -23,8 +30,9 @@ gem 'binding_of_caller' #works with better errors to see
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.7'
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
-gem 'sqlite3','~>1.3.6'
+gem 'sqlite3'
+#gem 'sqlite3','~>1.3.6'
+#gem 'sqlite3', git: 'https://github.com/larskanis/sqlite3-ruby', branch: 'add-gemspec'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -52,8 +60,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
+  #gem 'capybara', '>= 2.15'
+  #gem 'selenium-webdriver'
 end
 
 group :development do
